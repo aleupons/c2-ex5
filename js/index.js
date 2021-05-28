@@ -10,5 +10,7 @@ function esPalindromo(frase) {
 
 const frase = "Höla, què tál?";
 const frase2 = "Argentina, la lluna anul·la la nit negra";
-console.log(`${frase} ${esPalindromo(frase)}`);
-console.log(`${frase2} ${esPalindromo(frase2)}`);
+console.log(`${frase}\n${esPalindromo(frase) ? "Palíndrom" : "No palíndrom"}`);
+console.log(
+  `${frase2}\n${esPalindromo(frase2) ? "Palíndrom" : "No palíndrom"}`
+);
