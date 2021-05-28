@@ -10,5 +10,5 @@ function esPalindromo(frase) {
 
 const frase = "Höla, què tál?";
 const frase2 = "Argentina, la lluna anul·la la nit negra";
-console.log(esPalindromo(frase));
-console.log(esPalindromo(frase2));
+console.log(`${frase} ${esPalindromo(frase)}`);
+console.log(`${frase2} ${esPalindromo(frase2)}`);
